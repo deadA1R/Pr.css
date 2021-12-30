@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lato&family=Maven+Pro&display=swap');
+body{
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+div{
+  align-content: center;
+  width: auto;
+  height: auto;
+  padding: 2%;
+  margin: 2%;
+  position: relative;
+  font-size: 12pt;
+  font-style: normal;
+
+}
+.box_1 {
+  border: 3px;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: blue;
+  font-family: 'Comfortaa';
+}
+.box_2{
+  border: 4px;
+  border-radius: 20px;
+  border-style: double;
+  border-color: black;
+  font-family: 'Lato', sans-serif;
+  font-style: oblique;
+}
+.box_3{
+  border: 3px;
+  border-style: solid;
+  border-color: red;
+  font-family: 'Maven Pro', sans-serif;
+}
